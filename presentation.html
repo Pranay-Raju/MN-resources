@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MN Resources Website Presentation</title>
+    <style>
+      :root {
+        --bg: #060606;
+        --surface: #121212;
+        --text: #f8f3e8;
+        --muted: #b8aa8d;
+        --accent: #c8a24b;
+        --border: rgba(200, 162, 75, 0.25);
+      }
+
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Arial, sans-serif;
+        background: linear-gradient(135deg, var(--bg), #0d0b05);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      body {
+        overflow: hidden;
+      }
+
+      .deck {
+        position: relative;
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      .slide {
+        position: absolute;
+        inset: 0;
+        padding: 56px 8vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateX(100%);
+        transition: all 0.35s ease;
+      }
+
+      .slide.active {
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateX(0);
+      }
+
+      h1, h2, h3 { line-height: 1.2; }
+      h1 { font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 16px; }
+      h2 { font-size: clamp(1.4rem, 2.6vw, 2rem); margin-bottom: 12px; color: var(--accent); }
+      p, li { color: var(--muted); font-size: 1.05rem; }
+
+      .hero {
+        background: radial-gradient(circle at top right, rgba(200, 162, 75, 0.2), transparent 25%);
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+      }
+
+      .card {
+        background: rgba(18,18,18,0.95);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        padding: 24px;
+      }
+
+      ul { padding-left: 20px; }
+      .tag {
+        display: inline-block;
+        padding: 6px 10px;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        color: var(--accent);
+        margin: 6px 8px 0 0;
+        font-size: 0.9rem;
+      }
+
+      .journey-step {
+        margin-bottom: 12px;
+        padding-left: 12px;
+        border-left: 2px solid var(--accent);
+      }
+
+      .controls {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: flex;
+        gap: 10px;
+        z-index: 10;
+      }
+
+      .controls button {
+        border: 1px solid var(--border);
+        background: rgba(18,18,18,0.95);
+        color: var(--text);
+        padding: 10px 14px;
+        border-radius: 999px;
+        cursor: pointer;
+        transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+      }
+
+      .controls button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 24px rgba(200, 162, 75, 0.25);
+        background: rgba(200, 162, 75, 0.16);
+        color: var(--accent);
+        border-color: var(--accent);
+      }
+
+      .slide-number {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        color: var(--muted);
+        z-index: 10;
+      }
+
+      @media (max-width: 800px) {
+        .grid { grid-template-columns: 1fr; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="deck">
+      <section class="slide hero active">
+        <h1>MN Resources Website</h1>
+        <p>A premium introductory website designed to present the business professionally, build credibility, and capture enquiries.</p>
+        <div>
+          <span class="tag">Luxury black & gold theme</span>
+          <span class="tag">Lead generation</span>
+          <span class="tag">Professional brand introduction</span>
+        </div>
+      </section>
+
+      <section class="slide">
+        <h2>User Persona</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Business Owner</h3>
+            <ul>
+              <li>Wants to introduce the company professionally</li>
+              <li>Needs a trusted online presence</li>
+              <li>Wants visitors to contact the business easily</li>
+              <li>Needs the website to reflect quality and credibility</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Business Consumer</h3>
+            <ul>
+              <li>Looks for suppliers in the construction or cement industry</li>
+              <li>Wants to understand the company quickly</li>
+              <li>Needs confidence in the brand before contacting</li>
+              <li>Prefers a clear, premium, and easy-to-navigate experience</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide">
+        <h2>Pain Points and Prioritization</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Customer Pain Points</h3>
+            <ul>
+              <li>Hard to assess business credibility online</li>
+              <li>Limited trust without clear company information</li>
+              <li>Difficulty finding contact options</li>
+              <li>Need for a polished and premium first impression</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Priority Focus</h3>
+            <ul>
+              <li>Build trust quickly</li>
+              <li>Show product and business context clearly</li>
+              <li>Make enquiry submission simple</li>
+              <li>Create a luxury brand experience</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide">
+        <h2>Solutions</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>What the website delivers</h3>
+            <ul>
+              <li>Premium black-and-gold styling for a luxury impression</li>
+              <li>Structured sections for business introduction, products, and credibility</li>
+              <li>Profile and product visuals to support trust</li>
+              <li>Enquiry form for direct lead capture</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Business value</h3>
+            <ul>
+              <li>Improves brand perception</li>
+              <li>Helps visitors research the business faster</li>
+              <li>Encourages enquiries from serious buyers</li>
+              <li>Creates a modern digital introduction</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide">
+        <h2>User Journey</h2>
+        <div class="card">
+          <div class="journey-step"><strong>1.</strong> Visitor lands on the homepage and sees the luxury brand presentation.</div>
+          <div class="journey-step"><strong>2.</strong> They review the About section, products, and credibility information.</div>
+          <div class="journey-step"><strong>3.</strong> They gain confidence in the business profile and reputation.</div>
+          <div class="journey-step"><strong>4.</strong> They choose to submit an enquiry through the contact form.</div>
+          <div class="journey-step"><strong>5.</strong> The business receives the lead and can follow up quickly.</div>
+        </div>
+      </section>
+    </div>
+
+    <div class="slide-number" id="slideNumber">1 / 5</div>
+    <div class="controls">
+      <button onclick="prevSlide()">← Prev</button>
+      <button onclick="nextSlide()">Next →</button>
+    </div>
+
+    <script>
+      const slides = Array.from(document.querySelectorAll('.slide'));
+      let currentSlide = 0;
+
+      function showSlide(index) {
+        if (index < 0 || index >= slides.length) {
+          return;
+        }
+
+        currentSlide = index;
+        slides.forEach((slide, i) => {
+          slide.classList.toggle('active', i === currentSlide);
+        });
+        document.getElementById('slideNumber').textContent = `${currentSlide + 1} / ${slides.length}`;
+      }
+
+      function nextSlide() {
+        showSlide(currentSlide + 1);
+      }
+
+      function prevSlide() {
+        showSlide(currentSlide - 1);
+      }
+
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'ArrowRight' || event.key === 'PageDown' || event.key === ' ') {
+          event.preventDefault();
+          nextSlide();
+        }
+        if (event.key === 'ArrowLeft' || event.key === 'PageUp') {
+          event.preventDefault();
+          prevSlide();
+        }
+      });
+
+      showSlide(0);
+    </script>
+  </body>
+</html>

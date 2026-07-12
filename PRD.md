@@ -2,7 +2,7 @@
 
 ## 1. Product Overview
 - Product Name: MN Resources Introductory Website
-- Version: July-2026-0.1
+- Version: July-2026-0.2
 - Date: 12/07/2026
 - Author: Pranay
 - Product Summary: A premium, luxury-styled introductory website for a business profile that presents the client professionally, builds trust, and encourages potential customers to enquire.
@@ -68,6 +68,7 @@ The website should support a clear user journey where visitors can quickly under
 
 ## 6. Functional Requirements
 - The website should have a professional homepage with a luxury visual style aligned to the black-and-gold theme.
+- The website should use a premium color palette with the following hex codes: Black: #060606, Deep Charcoal: #121212, Gold Accent: #C8A24B, Warm Neutral: #F8F3E8, Muted Gold: #B8AA8D.
 - The website should include sections for business introduction, products/services, business credibility, location, experience, and contact/enquiry information.
 - The website should include an enquiry form that collects the following details: contact name, business name, contact number, email (optional), and message.
 - When a user submits the form, it should send an email to pranay01996@gmail.com with the subject “Enquiry Lead” and include the submitted form details; if the user provides an email address, it should be included in the message, otherwise the default email should be used.
@@ -79,6 +80,7 @@ The website should support a clear user journey where visitors can quickly under
 - Security: Contact forms should be secure and protect user data.
 - Reliability: The website should be available consistently and function correctly across common browsers.
 - Usability: The design should feel elegant, easy to navigate, and intuitive for first-time visitors.
+- Aesthetics: The website should consistently use the defined premium color palette, including #060606, #121212, #C8A24B, #F8F3E8, and #B8AA8D, to create a luxurious, high-end brand experience that feels modern, polished, and trustworthy.
 
 ## 8. User Stories
 - As a potential client, I want to quickly understand who the business is, what it offers, and why it is credible so that I can evaluate whether to engage further.
