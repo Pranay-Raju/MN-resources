@@ -179,13 +179,27 @@ h1 {
 
 .product-grid,
 .credibility-grid,
-.gallery-grid {
+.road-contracts-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
-.gallery-grid img {
+.credibility-visual-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 24px;
+  align-items: center;
+}
+
+.visual-card {
+  min-height: 220px;
+  display: flex;
+  align-items: center;
+}
+
+.visual-image {
+  width: 100%;
   border-radius: 16px;
   border: 1px solid var(--border);
   min-height: 220px;
@@ -249,7 +263,8 @@ textarea {
   .contact-grid,
   .product-grid,
   .credibility-grid,
-  .gallery-grid {
+  .road-contracts-grid,
+  .credibility-visual-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -263,6 +278,11 @@ textarea {
 
   .nav-links {
     flex-wrap: wrap;
+  }
+
+  .quantity-field,
+  .quantity-field-wide {
+    grid-column: span 12;
   }
 
   .section {

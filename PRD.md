@@ -2,10 +2,10 @@
 
 ## 1. Product Overview
 - Product Name: MN Resources Introductory Website
-- Version: July-2026-0.2
+- Version: July-2026-0.3
 - Date: 12/07/2026
 - Author: Pranay
-- Product Summary: A premium, luxury-styled introductory website for a business profile that presents the client professionally, builds trust, and encourages potential customers to enquire.
+- Product Summary: A premium, luxury-styled introductory website for a business profile that presents the client professionally, builds trust, and encourages building and road contractors to enquire.
 
 ## 2. Problem Statement
 MN Resources needs a premium digital introduction that presents the business professionally, builds credibility, and makes it easy for potential buyers and partners to understand the company, review its offerings, and get in touch. The website should reflect a luxury black-and-gold brand experience while helping visitors research the business and submit enquiries.
@@ -23,7 +23,7 @@ Key business context captured from the client:
 - Business name: MN Resources
 - Industry: mSand and pSand manufacturing firm
 - Main products: mSand, pSand, 12mm, 20mm, 40mm
-- Target audience: construction firms and cement manufacturing firms
+- Target audience: building and road contractors
 - Desired tone: premium, modern, and elegant
 - Primary business goal: create a strong impression of credibility and trust
 - Design reference: use the provided reference images (image1, image2, image3) as inspiration
@@ -44,7 +44,7 @@ The website should support a clear user journey where visitors can quickly under
   - Visitor feedback on design and usability.
 
 ## 4. Target Users
-- Primary users: Potential clients such as construction firms and cement manufacturing firms researching suppliers and business credibility.
+- Primary users: Potential clients such as building and road contractors researching suppliers and business credibility.
 - Secondary users: The business owner and team who will manage enquiries and represent the brand online.
 - User needs and pain points:
   - They need a clear understanding of who the business is and what products it offers.
@@ -59,6 +59,7 @@ The website should support a clear user journey where visitors can quickly under
 - A simple enquiry/contact form to collect lead information.
 - Content sections that support research and trust-building.
 - Mobile-friendly and modern user experience.
+- A dedicated section highlighting road contracts as a key business focus area.
 
 ### Out of Scope
 - Full e-commerce functionality.
@@ -70,7 +71,8 @@ The website should support a clear user journey where visitors can quickly under
 - The website should have a professional homepage with a luxury visual style aligned to the black-and-gold theme.
 - The website should use a premium color palette with the following hex codes: Black: #060606, Deep Charcoal: #121212, Gold Accent: #C8A24B, Warm Neutral: #F8F3E8, Muted Gold: #B8AA8D.
 - The website should include sections for business introduction, products/services, business credibility, location, experience, and contact/enquiry information.
-- The website should include an enquiry form that collects the following details: contact name, business name, contact number, email (optional), and message.
+- The website should include an enquiry form that collects the following details: contact name, business name, contact number, email (optional), delivery address, and material requirements for each available product type with quantity in tons.
+- The available product types for enquiry should include M Sand, P Sand, C Sand, 6mm / 12mm, and 20mm / 40mm, each with a quantity-in-tons field.
 - When a user submits the form, it should send an email to pranay01996@gmail.com with the subject “Enquiry Lead” and include the submitted form details; if the user provides an email address, it should be included in the message, otherwise the default email should be used.
 - The website should be responsive and work well on desktop and mobile devices.
 - The website should clearly display contact details and a strong call to action for enquiries.
@@ -88,8 +90,15 @@ The website should support a clear user journey where visitors can quickly under
 - As a potential client, I want to view the company’s products and business profile clearly so that I can assess fit for my needs.
 - As a potential client, I want to submit an enquiry easily so that I can request more information.
 - As a business owner, I want the website to collect leads effectively so that I can follow up with interested prospects.
+- As a road contractor, I want to understand how MN Resources supports road contract requirements so I can assess suitability for my projects.
 
-## 9. Assumptions and Dependencies
+## 9. Road Contracts Section
+- The website should include a dedicated section that highlights road contracts as an important area of business activity.
+- This section should communicate that MN Resources supports road contractors with reliable material supply and project-ready solutions.
+- The messaging should be clear, professional, and aligned with the premium brand tone.
+- The section should help visitors understand the relevance of the company’s products for road construction and infrastructure work.
+
+## 10. Assumptions and Dependencies
 - Assumptions:
   - The client will provide the business content, branding details, and images. Random image stock that resonates with the business can be used for now.
   - The website will be built as an introductory marketing site rather than a full business platform.
@@ -99,18 +108,18 @@ The website should support a clear user journey where visitors can quickly under
   - Content approval from the client.
   - Any required third-party tools for forms or analytics.
 
-## 10. Timeline and Milestones
+## 11. Timeline and Milestones
 - Phase 1: Discovery, content review, and design direction.
 - Phase 2: Website development and implementation of the enquiry form.
 - Phase 3: Review, testing, and final launch.
 
-## 11. Open Questions
+## 12. Open Questions
 - What specific pages are required: Home, About, Services, Contact, or others?
 - Should the website include testimonials, case studies, or additional proof points?
 - Who will own the content updates after launch?
 - Is there a preferred timeline for launch?
 
-## 12. Notes
+## 13. Notes
 - Additional context or considerations:
   - The website should feel exclusive and premium, not generic.
   - The design should support both brand storytelling and lead capture.
