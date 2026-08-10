@@ -6,7 +6,7 @@
     <title>MN Resources | Premium Industrial Supply</title>
     <meta
       name="description"
-      content="MN Resources offers premium mSand and pSand solutions for construction and cement manufacturing industries."
+      content="MN Resources offers premium mSand and pSand solutions for building and road contractors."
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -27,7 +27,7 @@
         <div class="hero-content">
           <div class="hero-copy">
             <p class="eyebrow">Premium Industrial Supply</p>
-            <h1>Trusted quality for construction and cement manufacturing.</h1>
+            <h1>Trusted quality for building and road contractors.</h1>
             <p>
               MN Resources delivers dependable M Sand and P Sand products with a premium
               brand experience designed to inspire confidence from first impression to enquiry.
@@ -49,12 +49,12 @@
         </div>
         <div class="about-grid">
           <div>
-            <img src="profile.png" alt="Profile image for MN Resources" class="about-profile" />
+            <img src="lohit.png" alt="Profile image for MN Resources" class="about-profile" />
             <p>
               MN Resources is a business focused on creating dependable relationships with
-              clients in the construction and cement industries. The website is designed to
-              introduce the company with a polished image, highlight product quality, and make
-              it easy for potential clients to get in touch.
+              building and road contractors. The website is designed to introduce the company
+              with a polished image, highlight product quality, and make it easy for potential
+              clients to get in touch.
             </p>
             <p>
               The experience is intentionally premium, modern, and elegant to reflect the
@@ -66,7 +66,7 @@
             <ul>
               <li>Company name: MN Resources</li>
               <li>Industry: M Sand and P Sand manufacturing</li>
-              <li>Audience: construction and cement firms</li>
+              <li>Audience: building and road contractors</li>
               <li>Objective: build credibility and generate enquiries</li>
             </ul>
           </div>
@@ -76,7 +76,7 @@
       <section class="section products" id="products">
         <div class="section-heading">
           <p class="eyebrow">Our Products</p>
-          <h2>Core materials for modern construction needs.</h2>
+          <h2>Core materials for modern building and road work.</h2>
         </div>
         <div class="product-grid">
           <article class="card product-card">
@@ -164,9 +164,33 @@
               <input type="email" name="email" />
             </label>
             <label>
-              Message
-              <textarea name="message" rows="4" required></textarea>
+              Delivery Address
+              <textarea name="address" rows="3" required></textarea>
             </label>
+
+            <div class="quantity-grid">
+              <label class="quantity-field">
+                M Sand (in tons)
+                <input type="number" name="mSandTons" min="0" step="0.1" />
+              </label>
+              <label class="quantity-field">
+                P Sand (in tons)
+                <input type="number" name="pSandTons" min="0" step="0.1" />
+              </label>
+              <label class="quantity-field">
+                C Sand (in tons)
+                <input type="number" name="cSandTons" min="0" step="0.1" />
+              </label>
+              <label class="quantity-field quantity-field-wide">
+                6mm / 12mm (in tons)
+                <input type="number" name="sixTwelveTons" min="0" step="0.1" />
+              </label>
+              <label class="quantity-field quantity-field-wide">
+                20mm / 40mm (in tons)
+                <input type="number" name="twentyFortyTons" min="0" step="0.1" />
+              </label>
+            </div>
+
             <button class="btn btn-primary" type="submit">Submit Enquiry</button>
             <p id="formMessage" class="form-message" aria-live="polite"></p>
           </form>

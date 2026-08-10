@@ -195,24 +195,46 @@ h1 {
 form label {
   display: block;
   margin-bottom: 14px;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
+}
+
+.quantity-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+  margin-top: 2px;
+}
+
+.quantity-field {
+  grid-column: span 4;
+  margin-bottom: 0;
+}
+
+.quantity-field-wide {
+  grid-column: span 6;
 }
 
 input,
 textarea {
   width: 100%;
-  margin-top: 6px;
-  padding: 10px 12px;
-  border-radius: 10px;
+  margin-top: 4px;
+  padding: 8px 10px;
+  border-radius: 8px;
   border: 1px solid var(--border);
   background: #0d0d0d;
   color: var(--text);
+  font-size: 0.95rem;
+}
+
+textarea {
+  min-height: 70px;
+  resize: vertical;
 }
 
 .form-message {
   min-height: 24px;
   color: var(--accent);
-  margin-top: 12px;
+  margin-top: 10px;
 }
 
 .footer {
