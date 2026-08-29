@@ -51,11 +51,47 @@ a {
 }
 
 .brand {
-  font-size: 1.2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 110px;
+  height: 54px;
+  color: var(--accent);
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.brand:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.08);
+}
+
+.brand-mark {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 42px;
+  line-height: 1;
+}
+
+.brand-letter {
+  position: absolute;
+  top: 0;
+  font-family: "Hello Paris Serif Regular", Georgia, serif;
+  font-size: clamp(2.2rem, 2.5vw, 2.9rem);
   font-weight: 700;
-  letter-spacing: 0.2em;
+  line-height: 1;
+  letter-spacing: -0.08em;
   text-transform: uppercase;
   color: var(--accent);
+  text-shadow: 0 0 18px rgba(200, 162, 75, 0.12);
+}
+
+.brand-letter-m {
+  left: 0;
+}
+
+.brand-letter-n {
+  left: 26px;
 }
 
 .nav-links {
