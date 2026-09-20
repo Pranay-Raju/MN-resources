@@ -60,6 +60,8 @@ The website should support a clear user journey where visitors can quickly under
 - Content sections that support research and trust-building.
 - Mobile-friendly and modern user experience.
 - A dedicated section highlighting road contracts as a key business focus area.
+- A Founding Partners section on the homepage to showcase the business founders or partners and strengthen brand credibility.
+- The Founding Partners section must use available appropriate images, a profile-style layout, and display each partner’s name with their title or role.
 
 ### Out of Scope
 - Full e-commerce functionality.
@@ -71,6 +73,9 @@ The website should support a clear user journey where visitors can quickly under
 - The website should have a professional homepage with a luxury visual style aligned to the black-and-gold theme.
 - The website should use a premium color palette with the following hex codes: Black: #060606, Deep Charcoal: #121212, Gold Accent: #C8A24B, Warm Neutral: #F8F3E8, Muted Gold: #B8AA8D.
 - The website should include sections for business introduction, products/services, business credibility, location, experience, and contact/enquiry information.
+- The homepage should include a Founding Partners section that highlights the business founders or partners in a premium, visually appealing format to build trust and reinforce the brand story.
+- The Founding Partners section will use available appropriate images and a profile-style presentation, with each partner shown by name and title/role.
+- The section should be placed below the company overview section on the homepage.
 - The website should include an enquiry form that collects the following details: contact name, business name, contact number, email (optional), delivery address, and material requirements for each available product type with quantity in tons.
 - The available product types for enquiry should include M Sand, P Sand, C Sand, 6mm / 12mm, and 20mm / 40mm, each with a quantity-in-tons field.
 - When a user submits the form, it should send an email to pranay01996@gmail.com with the subject “Enquiry Lead” and include the submitted form details; if the user provides an email address, it should be included in the message, otherwise the default email should be used.
@@ -88,6 +93,7 @@ The website should support a clear user journey where visitors can quickly under
 - As a potential client, I want to quickly understand who the business is, what it offers, and why it is credible so that I can evaluate whether to engage further.
 - As a potential client, I want to see a premium and trustworthy brand presentation so that I feel confident contacting the business.
 - As a potential client, I want to view the company’s products and business profile clearly so that I can assess fit for my needs.
+- As a potential client, I want to see the founding partners represented on the homepage so that I can understand the leadership and credibility behind the business.
 - As a potential client, I want to submit an enquiry easily so that I can request more information.
 - As a business owner, I want the website to collect leads effectively so that I can follow up with interested prospects.
 - As a road contractor, I want to understand how MN Resources supports road contract requirements so I can assess suitability for my projects.
@@ -118,9 +124,22 @@ The website should support a clear user journey where visitors can quickly under
 - Should the website include testimonials, case studies, or additional proof points?
 - Who will own the content updates after launch?
 - Is there a preferred timeline for launch?
+- Who are the founding partners that should be featured, and what content should appear for each one?
+- What are the exact titles or roles for the founding partners in the Founding Partners section?
+- Should the Founding Partners section use names, logos, short bios, or a combination of these?
+- Where on the homepage should the Founding Partners section be placed relative to the hero, business overview, or services content?
 
-## 13. Notes
+## 13. Founding Partners Section
+- Purpose: Add a dedicated, premium homepage section that introduces the founders or business partners and reinforces trust, credibility, and leadership.
+- Content expectation: The section should feature the relevant partner names and supportive details, with available appropriate images and a name + title/role layout for each profile.
+- Design expectation: The section should use a profile-style presentation, match the luxury black-and-gold identity, and feel polished, modern, and professional.
+- Placement: The section should sit below the company overview section on the homepage.
+- Business value: This content helps visitors understand who is behind the company and strengthens confidence before enquiry submission.
+- Partner names: Murali Reddy, Lohith Reddy, and Venkata Reddy.
+
+## 14. Notes
 - Additional context or considerations:
   - The website should feel exclusive and premium, not generic.
   - The design should support both brand storytelling and lead capture.
   - The website should be simple enough for visitors to understand quickly while still feeling luxurious.
+  - The Founding Partners section should remain concise and premium so it complements rather than distracts from the main enquiry journey.
