@@ -386,14 +386,19 @@ textarea {
   }
 }
 
-@media (max-width: 4000px) {
+/* @media (max-width: 4000px) {
   .topbar {
     padding: 300px 5vw 6px;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
   }
+    .nav-links {
+  display: flex;
+  gap: 18px;
+  color: var(--muted);
 }
+} */
 
 @media (max-width: 640px) {
   .topbar {
