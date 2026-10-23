@@ -280,6 +280,28 @@ h1 {
   align-items: center;
 }
 
+.crusher-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.crusher-detail strong {
+  display: block;
+  color: var(--accent);
+  font-size: 1.5rem;
+}
+
+.crusher-detail h3 {
+  margin: 8px 0;
+}
+
+.crusher-detail p {
+  margin: 0;
+  color: var(--muted);
+}
+
 .visual-card {
   min-height: 220px;
   display: flex;
