@@ -44,7 +44,8 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 5vw;
+  gap: 20px;
+  padding: 194px 5vw 8px;
   background: rgba(6, 6, 6, 0.95);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border);
@@ -54,44 +55,49 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 220px;
-  height: 108px;
+  flex-shrink: 0;
+  min-width: 280px;
+  height: 120px;
   color: var(--accent);
-  transition: transform 0.2s ease, filter 0.2s ease;
+  transition: filter 0.2s ease;
+  margin-right: auto;
 }
 
 .brand:hover {
-  transform: translateY(-1px);
   filter: brightness(1.08);
 }
 
 .brand-mark {
   position: relative;
-  display: inline-block;
-  width: 200px;
-  height: 84px;
-  line-height: 1;
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0;
+  height: 100%;
+  line-height: 0.8;
 }
 
 .brand-letter {
-  position: absolute;
-  top: 0;
+  position: relative;
+  display: inline-block;
   font-family: "Hello Paris Serif Regular", Georgia, serif;
-  font-size: clamp(4.4rem, 5vw, 5.8rem);
+  font-size: calc(clamp(4.4rem, 5vw, 5.8rem) * 6);
   font-weight: 700;
-  line-height: 1;
-  letter-spacing: -0.08em;
+  line-height: 0.72;
+  letter-spacing: -0.2em;
   text-transform: uppercase;
   color: var(--accent);
   text-shadow: 0 0 18px rgba(200, 162, 75, 0.12);
+  transform: translateZ(0);
+  transform-origin: center;
 }
 
 .brand-letter-m {
-  left: 0;
+  margin-right: -0.2em;
 }
 
 .brand-letter-n {
-  left: 52px;
+  margin-left: -0.04em;
 }
 
 .nav-links {
@@ -380,11 +386,40 @@ textarea {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 4000px) {
   .topbar {
+    padding: 300px 5vw 6px;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
+  }
+}
+
+@media (max-width: 640px) {
+  .topbar {
+    padding: 65px 5vw 6px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .brand {
+    min-width: 120px;
+    height: 72px;
+    margin-right: 0;
+  }
+
+  .brand-letter {
+    font-size: calc(clamp(4.4rem, 5vw, 5.8rem) * 2.6);
+    letter-spacing: -0.16em;
+  }
+
+  .brand-letter-m {
+    margin-right: -0.22em;
+  }
+
+  .brand-letter-n {
+    margin-left: -0.05em;
   }
 
   .nav-links {
